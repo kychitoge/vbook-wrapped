@@ -1,7 +1,6 @@
 name = "vbook-wrapped"
-pages_build_output_dir = "dist"
 compatibility_date = "2026-07-01"
 compatibility_flags = ["nodejs_compat"]
 
-[site]
-bucket = "./dist"
+[assets]
+directory = "dist"
